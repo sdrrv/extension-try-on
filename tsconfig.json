@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "outDir": "./dist",  // This ensures your JS files are placed in the dist folder
+    "allowJs": true,
+    "jsx": "react",
+    "declaration": true,  // Optionally, generate type declaration files
+    "skipLibCheck": true
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx"  // Ensure TypeScript also processes .tsx files (for React)
+  ],
+  "exclude": ["node_modules"]
+}
